@@ -5,16 +5,16 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 /******************************************
@@ -28,13 +28,12 @@ body {
   padding-right: 3rem;
   margin: auto;
   max-width: 1008px;
+  line-height: 2rem;
 }
 small {
   font-size: 14px;
   color: rgb(83, 83, 83);
 }
-
-
 
 /******************************************
 /* HEADER
@@ -56,7 +55,7 @@ nav ul {
   gap: 4rem;
   font-size: 14px;
   justify-content: center;
-  border-bottom: 2px solid lightslategrey;
+  border-bottom: 3px solid slategrey;
 }
 nav li {
   display: inline;
@@ -81,16 +80,50 @@ nav li {
 
 h3 {
   font-size: 24px;
-  
 }
 
 .sidebar {
   display: flex;
   flex-direction: column;
+  flex: 1;
+  align-items: center;
   gap: 1rem;
   max-width: 63%;
+  line-height: 1.5rem;
+}
+.sidebar img {
+  border-radius: 200px 200px 200px 200px;
+  height: auto;
+  width: 200px;
+}
+.sidebar h5 {
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+}
+ol li {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  font-size: 14px;
+  font-style: italic;
+}
+.social, .archive {
+  border-bottom: 2px solid slategray;
+  width: 250px;
 }
 
+/******************************************
+/* FOOTER
+/*******************************************/
+footer {
+  margin-top: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-top: 3px solid slategrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
