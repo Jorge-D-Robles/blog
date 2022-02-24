@@ -112,6 +112,7 @@ ol li {
   body {
     padding-left: 1rem;
     padding-right: 1rem;
+    text-align: center;
   }
   h1 {
     line-height: 1.2em;
@@ -124,7 +125,6 @@ ol li {
     max-width: 100%;
   }
   .sidebar {
-    text-align: center;
     padding: 2rem;
     border-top: 3px solid slategray;
   }
