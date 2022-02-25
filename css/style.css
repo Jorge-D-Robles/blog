@@ -22,7 +22,7 @@
 /*******************************************/
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
   font-size: 16px;
   padding-left: 3rem;
   padding-right: 3rem;
@@ -70,8 +70,10 @@ nav ul {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  padding-right: 3%;
   max-width: 63%;
   margin-right: 3.6666%;
+  border-right: 1px dotted slategray;
 }
 
 h3 {
@@ -109,7 +111,9 @@ ol li {
   padding-bottom: 1rem;
   width: 100%;
 }
-/* mobile version */
+/******************************************
+/* MOBILE
+/*******************************************/
 @media all and (max-width: 675px) {
   body {
     padding-left: 1rem;
@@ -126,13 +130,19 @@ ol li {
   .main, .sidebar {
     max-width: 100%;
   }
+
+  .main {
+    border: none;
+    padding-bottom: 2.5rem;
+  }
+
   .sidebar {
     padding: 2rem;
     border-top: 3px solid slategray;
   }
   .archive, .social {
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
   }
   footer {
     font-size: 12px;
