@@ -21,17 +21,17 @@
   <body>
     <!-- Header/top section of webpage. -->
     <header>
-      <h1 class="">Jorge Robles</h1>
-      <h4>	
+      <h1>Jorge Robles</h1>
+      <h4>
         A middle school music teacher's journey into software engineering.
       </h4>
     </header>
 
     <nav>
       <ul>
-        <li>Home</li>
-        <li>Article</li>
-        <li>About</li>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/html/posts.html">Posts</a></li>
+        <li><a href="/html/about.html">About</a></li>
         <li>Contact</li>
       </ul>
     </nav>
@@ -40,10 +40,10 @@
     <div class="container">
       <section class="main">
         <small>February 24, 2022</small>
-        <h3>Welcome to my blog.</h3>
-        <h5>
+        <h2>Welcome to my blog.</h2>
+        <h5 class="me">
           My name is Jorge Robles and I am a professionally licensed K-12 Music
-          Teacher in NYS, specializing in instrumental music such as band.
+          Teacher in NYS, specializing in instrumental music such as band as well as a Full-Stack Software Engineer.
         </h5>
         <p>
           Today is February 24th, 2022 and I have been learning HTML and CSS for
@@ -69,7 +69,7 @@
           progression into it's final form by the end of my self-taught journey.
         </p>
         <p>
-          Strap on, and click <a href="html/articles.html">here</a> to begin
+          Strap on, and click <a href="html/posts.html">here</a> to begin
           reading my journey.
         </p>
       </section>
@@ -89,13 +89,16 @@
         <div class="social">Put social links/email stuff here.</div>
         <div class="archive">
           <h3>Blog Archive</h3>
-          <h5>2022</h5>
-          <ol>
-            <ol>
+          <div class="year">
+            <h5>2022</h5>
+            <div class="month">
               <h5>February 2022</h5>
-              <li>- February 24th, 2022</li>
-            </ol>
-          </ol>
+
+              <ol class="daily">
+                <li>February 24th, 2022</li>
+              </ol>
+            </div>
+          </div>
         </div>
       </aside>
     </div>

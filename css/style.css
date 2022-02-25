@@ -35,6 +35,17 @@ small {
   color: rgb(83, 83, 83);
 }
 
+a {
+  color: rgb(0, 0, 255);
+  text-decoration: none;
+}
+nav a {
+  color: black;
+}
+a:hover {
+  color: rgb(116, 116, 252);
+}
+
 /******************************************
 /* HEADER
 /*******************************************/
@@ -75,9 +86,12 @@ nav ul {
   margin-right: 3.6666%;
   border-right: 1px dotted slategray;
 }
-
-h3 {
+.me {
+  font-size: 18px;
+}
+h3, h2 {
   font-size: 24px;
+  font-style: italic;
 }
 
 .sidebar {
@@ -96,21 +110,29 @@ h3 {
   width: 200px;
 }
 .sidebar h5 {
-  text-transform: uppercase;
-  font-style: italic;
   font-weight: bold;
 }
-ol li {
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  font-size: 14px;
-  font-style: italic;
-}
+
 .social, .archive {
   border-bottom: 2px solid slategray;
   padding-bottom: 1rem;
   width: 100%;
 }
+.year, .month {
+  display: flex;
+  flex-direction: column;
+}
+.daily {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  font-size: 14px;
+  font-style: italic;
+  margin-left: 1.5rem;
+  align-self: center;
+  list-style-type: disc;
+}
+
+
 /******************************************
 /* MOBILE
 /*******************************************/
