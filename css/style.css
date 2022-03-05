@@ -27,8 +27,9 @@ body {
   padding-left: 3rem;
   padding-right: 3rem;
   margin: auto;
-  max-width: 1008px;
+  max-width: 1400px;
   line-height: 2rem;
+  font-weight: 400;
 }
 small {
   font-size: 14px;
@@ -87,7 +88,12 @@ nav ul {
   border-right: 1px dotted slategray;
 }
 .me {
-  font-size: 18px;
+  font-size: 24px;
+  font-style: italic;
+
+  line-height: 2.5rem;
+  padding: 1rem 0;
+  border-top: 1px dotted slategray;
 }
 h3, h2 {
   font-size: 24px;
