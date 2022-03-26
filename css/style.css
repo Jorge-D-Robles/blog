@@ -217,7 +217,7 @@ nav ul {
   flex-direction: column;
   gap: 1rem;
   padding-right: 3%;
-  max-width: 63%;
+  max-width: 75%;
   margin-right: 3.6666%;
   border-right: 1px dotted slategray;
 }
@@ -240,7 +240,7 @@ h3, h2 {
   flex: 1;
   align-items: center;
   gap: 1rem;
-  max-width: 33%;
+  max-width: 25%;
   line-height: 1.5rem;
   text-align: center;
 }
@@ -276,7 +276,7 @@ h3, h2 {
 /******************************************
 /* MOBILE
 /*******************************************/
-@media all and (max-width: 675px) {
+@media all and (max-width: 750px) {
   body {
     padding-left: 1rem;
     padding-right: 1rem;
