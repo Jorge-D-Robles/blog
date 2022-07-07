@@ -63,6 +63,9 @@ figure {
   justify-content: center;
   align-items: center;
 }
+strong {
+  font-weight: 800;
+}
 /******************************************
 /* Code Blocks 
 /*******************************************/
