@@ -63,8 +63,21 @@ figure {
   justify-content: center;
   align-items: center;
 }
+figure a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 strong {
   font-weight: 800;
+}
+.posts {
+  margin-left: 1rem;
+  list-style-type: disc;
+}
+.emphasis {
+  font-weight: 800;
+  font-style: italic;
 }
 /******************************************
 /* Code Blocks 
